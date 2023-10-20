@@ -22,6 +22,7 @@ export default function Test(){
     }
 return(
     <div>
+    <form>
     <h1>Hey</h1>
     <h1>{userAge}</h1>
     <h1>{userName}</h1>
@@ -36,7 +37,7 @@ return(
     <button onClick={increment}> Increment </button>
     <span> {count} </span>
     <button  onClick={decrement} > Decrement </button>
-
+    </form>
     </div>
 )
 }
